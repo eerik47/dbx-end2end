@@ -9,6 +9,7 @@ Basic data playground is packaged as reusable module (data lake, generators, SQL
 
 ## Deployment
 Go to terraform folder and run it. Note that generators are started as Azure Container Instances and might take few hours to complete. In main.tf when calling modules you can modify certain inputs such as ammount of data generated.
+#####
 
 ```bash
 cd terraform
